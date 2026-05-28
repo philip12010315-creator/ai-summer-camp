@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 AI 科技夏令營 | 超早鳥熱烈招生中！</title>
+    <meta name="description" content="2026年最受矚目的 AI 科技夏令營！涵蓋 Minecraft 邏輯程式設計、SPM 動力機械、SPIKE AI 機器人、3D 創作及雷射切割設計，專業小班教學，名額有限，立即報名！">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Notice / Countdown Header -->
+    <div class="top-announcement">
+        <div class="container">
+            <div class="announcement-content">
+                <span class="badge badge-accent animate-pulse">🔥 限時搶購</span>
+                <span class="announcement-text">2026 AI 科技夏令營 <strong>超早鳥倒數最後 4 天！</strong> 搶先預約享最優折扣</span>
+            </div>
+            <div class="countdown-wrapper" id="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-num" id="days">04</span>
+                    <span class="countdown-label">天</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-num" id="hours">00</span>
+                    <span class="countdown-label">時</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-num" id="minutes">00</span>
+                    <span class="countdown-label">分</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-num" id="seconds">00</span>
+                    <span class="countdown-label">秒</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo-area">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <span class="logo-text">AI Tech Camp</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#courses" class="nav-link">核心課程</a>
+                <a href="#schedule" class="nav-link">報名梯次</a>
+                <a href="#booking" class="nav-btn">立即預約諮詢</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-info">
+                    <h1 class="hero-title">
+                        <span class="title-sub">2026 AI 科技夏令營</span>
+                        <span class="title-main">開啟孩子的<br><span class="gradient-text">未來工程師之路</span></span>
+                    </h1>
+                    <p class="hero-desc">
+                        專為 7-15 歲孩子設計的跨領域 AI 與動手創作營隊。結合最熱門的 Minecraft、SPIKE AI 機器人、SPM 動力機械與實體雷射切割創作，給孩子一生受用的邏輯思維與實作能力！
+                    </p>
+
+                    <!-- Trust Badges -->
+                    <div class="trust-badges">
+                        <div class="trust-badge">
+                            <span class="badge-icon">✓</span>
+                            <span>小班專精教育</span>
+                        </div>
+                        <div class="trust-badge">
+                            <span class="badge-icon">✓</span>
+                            <span>絕不超收</span>
+                        </div>
+                        <div class="trust-badge">
+                            <span class="badge-icon">✓</span>
+                            <span>額滿即停止招生</span>
+                        </div>
+                    </div>
+
+                    <!-- Meta details (Time/Place) -->
+                    <div class="meta-cards-grid">
+                        <div class="meta-card">
+                            <div class="meta-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <div class="meta-content">
+                                <span class="meta-title">上課時間</span>
+                                <span class="meta-value">09:00 - 17:00</span>
+                            </div>
+                        </div>
+                        <div class="meta-card">
+                            <div class="meta-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="meta-content">
+                                <span class="meta-title">上課教室</span>
+                                <span class="meta-value">南京復興教室 / 台北車站教室</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-actions">
+                        <a href="#schedule" class="btn btn-primary">瀏覽可報名梯次</a>
+                        <a href="#booking" class="btn btn-secondary">一鍵快速報名</a>
+                    </div>
+                </div>
+
+                <!-- Hero Graphic Frame (Mocking the camp elements) -->
+                <div class="hero-graphic">
+                    <div class="main-graphic-card">
+                        <!-- Simulated Graphic depicting Robots & Tech Elements -->
+                        <div class="decor-robot animate-float">
+                            <!-- Premium Tech Robot SVG -->
+                            <svg viewBox="0 0 120 120" class="svg-robot">
+                                <defs>
+                                    <linearGradient id="robotGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#3b82f6" />
+                                        <stop offset="100%" stop-color="#1d4ed8" />
+                                    </linearGradient>
+                                </defs>
+                                <rect x="30" y="40" width="60" height="50" rx="15" fill="url(#robotGrad)" />
+                                <!-- Ears/Antenna -->
+                                <circle cx="60" cy="20" r="6" fill="#3b82f6" />
+                                <line x1="60" y1="20" x2="60" y2="40" stroke="#3b82f6" stroke-width="4" />
+                                <rect x="20" y="55" width="10" height="25" rx="5" fill="#1d4ed8" />
+                                <rect x="90" y="55" width="10" height="25" rx="5" fill="#1d4ed8" />
+                                <!-- Face Screen -->
+                                <rect x="40" y="50" width="40" height="22" rx="8" fill="#0f172a" />
+                                <!-- Glowing Eyes -->
+                                <circle cx="50" cy="61" r="3" fill="#10b981" class="pulse-eye" />
+                                <circle cx="70" cy="61" r="3" fill="#10b981" class="pulse-eye" />
+                                <path d="M55 67 Q60 70 65 67" stroke="#10b981" stroke-width="2" stroke-linecap="round" fill="none" />
+                                <!-- Tracks/Base -->
+                                <rect x="40" y="90" width="40" height="12" rx="6" fill="#4b5563" />
+                                <circle cx="48" cy="96" r="3" fill="#9ca3af" />
+                                <circle cx="60" cy="96" r="3" fill="#9ca3af" />
+                                <circle cx="72" cy="96" r="3" fill="#9ca3af" />
+                                <rect x="52" y="85" width="16" height="6" fill="#1e293b" />
+                            </svg>
+                            <span class="robot-label">AI ASSISTANT</span>
+                        </div>
+                        <div class="decor-minecraft animate-float-delayed">
+                            <!-- Minecraft Grass Block SVG -->
+                            <svg viewBox="0 0 100 100" class="svg-mc">
+                                <path d="M50 15 L85 35 L50 55 L15 35 Z" fill="#10B981" />
+                                <path d="M15 35 L50 55 L50 90 L15 70 Z" fill="#78350F" />
+                                <path d="M50 55 L85 35 L85 70 L50 90 Z" fill="#B45309" />
+                                <!-- Green Grass overhangs -->
+                                <path d="M15 35 L50 55 L50 63 L35 55 L30 58 L15 45 Z" fill="#047857" opacity="0.8"/>
+                                <path d="M50 55 L85 35 L85 45 L70 53 L65 50 L50 63 Z" fill="#047857" opacity="0.8"/>
+                            </svg>
+                            <span class="mc-label">MINECRAFT</span>
+                        </div>
+                        <div class="camp-card-inner">
+                            <span class="card-tag">科技旗艦營</span>
+                            <span class="card-year">2026 SUMMER</span>
+                            <div class="card-main-title">AI & HARDWARE</div>
+                            <p class="card-subtitle">軟硬整合 • 邏輯思維 • 設計實作</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Details Section -->
+        <section id="courses" class="courses-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle font-outfit">CORE COURSES</span>
+                    <h2 class="section-title">五大核心課程領域</h2>
+                    <p class="section-desc">我們將抽象的 AI 理論融入具體的動手創作，全方位培養孩子解決問題的核心素養。</p>
+                </div>
+
+                <div class="courses-grid">
+                    <!-- Card 1: Minecraft -->
+                    <div class="course-card" onclick="toggleCourseDetail(this)">
+                        <div class="course-icon-box mc-color">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" stroke-linejoin="round"/>
+                                <path d="M9 3v18M15 3v18M3 9h18M3 15h18" stroke-dasharray="2 2"/>
+                                <rect x="9" y="9" width="6" height="6" fill="currentColor" fill-opacity="0.2"/>
+                            </svg>
+                        </div>
+                        <h3 class="course-name">Minecraft 邏輯程式設計</h3>
+                        <p class="course-summary">透過紅石邏輯閘與指令方塊，培養程式迴圈、判斷式等運算思維。</p>
+                        <div class="course-expand-btn">瞭解更多課程內容</div>
+                        <div class="course-detail-content">
+                            <h4 class="detail-subtitle">學習重點：</h4>
+                            <ul class="detail-list">
+                                <li><strong>紅石電路學</strong>：認識及實作邏輯閘 (AND, OR, NOT) 於自動化設施。</li>
+                                <li><strong>MakeCode 積木程式</strong>：撰寫指令建立自動化建造小助手，高效率產出大型建築。</li>
+                                <li><strong>伺服器邏輯</strong>：學習條件式判斷與事件觸發機制。</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: SPM -->
+                    <div class="course-card" onclick="toggleCourseDetail(this)">
+                        <div class="course-icon-box spm-color">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                            </svg>
+                        </div>
+                        <h3 class="course-name">SPM 動力機械</h3>
+                        <p class="course-summary">實作齒輪比、輪軸與連桿等物理結構，掌握基礎機械工程原理與力學。</p>
+                        <div class="course-expand-btn">瞭解更多課程內容</div>
+                        <div class="course-detail-content">
+                            <h4 class="detail-subtitle">學習重點：</h4>
+                            <ul class="detail-list">
+                                <li><strong>齒輪與傳動</strong>：學習減速與加速齒輪箱運作，以及力矩的改變。</li>
+                                <li><strong>結構穩固性</strong>：以三角形支撐與樑柱結構打造抗震、高承重的動力車載。</li>
+                                <li><strong>物理原理實作</strong>：探索重力、摩擦力及彈性位能如何影響機械作功。</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: SPIKE AI -->
+                    <div class="course-card" onclick="toggleCourseDetail(this)">
+                        <div class="course-icon-box spike-color">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="11" width="18" height="10" rx="2"/>
+                                <path d="M12 2v9M8 5h8"/>
+                                <circle cx="8" cy="16" r="1.5" fill="currentColor"/>
+                                <circle cx="16" cy="16" r="1.5" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="course-name">SPIKE AI 機器人</h3>
+                        <p class="course-summary">結合樂高教育與感應器，透過人工智慧與演算法控制自動化智慧機器人。</p>
+                        <div class="course-expand-btn">瞭解更多課程內容</div>
+                        <div class="course-detail-content">
+                            <h4 class="detail-subtitle">學習重點：</h4>
+                            <ul class="detail-list">
+                                <li><strong>智能感應反饋</strong>：使用色彩、距離與陀螺儀感應器，讓機器人感知周遭環境。</li>
+                                <li><strong>演算法與循線</strong>：撰寫 PID 循線程式，讓車輛在複雜跑道中流暢穩定行進。</li>
+                                <li><strong>AI 邏輯判定</strong>：配合情境模擬「森林救援」或「星際探索」，實作防撞與避障任務。</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: 3D Creation -->
+                    <div class="course-card" onclick="toggleCourseDetail(this)">
+                        <div class="course-icon-box creation-color">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                                <line x1="12" y1="22.08" x2="12" y2="12"/>
+                            </svg>
+                        </div>
+                        <h3 class="course-name">3D 創作設計</h3>
+                        <p class="course-summary">建立空間三維思維，從零建構數位模型，並學習 3D 列印與切片概念。</p>
+                        <div class="course-expand-btn">瞭解更多課程內容</div>
+                        <div class="course-detail-content">
+                            <h4 class="detail-subtitle">學習重點：</h4>
+                            <ul class="detail-list">
+                                <li><strong>空間幾何建模</strong>：透過積木堆疊與布林運算（交集、差集）建構複雜 3D 物件。</li>
+                                <li><strong>數位創客流程</strong>：認識三維座標系統 (XYZ) 及比例尺觀念。</li>
+                                <li><strong>實物生產概念</strong>：探索支撐結構、填充率設定對 3D 列印成品之影響。</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card 5: Laser Cut -->
+                    <div class="course-card" onclick="toggleCourseDetail(this)">
+                        <div class="course-icon-box laser-color">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 3h14M12 3v10M8 9l4 4 4-4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="12" cy="18" r="3" stroke-dasharray="1 1"/>
+                                <path d="M4 18h4M16 18h4" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="course-name">雷射切割設計</h3>
+                        <p class="course-summary">平面到立體的轉換實作，結合卡榫工藝，親手設計並雷切組裝出實體作品。</p>
+                        <div class="course-expand-btn">瞭解更多課程內容</div>
+                        <div class="course-detail-content">
+                            <h4 class="detail-subtitle">學習重點：</h4>
+                            <ul class="detail-list">
+                                <li><strong>2D 向量圖形設計</strong>：學習平面圖層設計，區分雷射刻印、畫線與切斷路徑。</li>
+                                <li><strong>精密卡榫組裝</strong>：考量木材厚度與公差，計算「密合插梢」以組裝穩固立體作品。</li>
+                                <li><strong>創意思維產品化</strong>：帶領孩子親手完成雷射木製收納盒或智慧夜燈框架。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sessions Section -->
+        <section id="schedule" class="schedule-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle font-outfit">AVAILABLE SESSIONS</span>
+                    <h2 class="section-title">目前可報名梯次</h2>
+                    <p class="section-desc">熱門梯次席次迅速減少中，歡迎選擇適合您的教室與時間，一鍵鎖定保留名額！</p>
+                </div>
+
+                <!-- Tab Selectors -->
+                <div class="tabs-container">
+                    <div class="tabs-wrapper">
+                        <button class="tab-btn active" data-target="nanjing" onclick="switchLocation('nanjing')">
+                            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            南京復興教室
+                        </button>
+                        <button class="tab-btn" data-target="taipei" onclick="switchLocation('taipei')">
+                            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            台北車站教室
+                        </button>
+                        <div class="tab-slider"></div>
+                    </div>
+                </div>
+
+                <!-- Sessions Grid (Dynamic Switch) -->
+                <div class="sessions-grid-container">
+                    <!-- Nanjing Sessions -->
+                    <div class="sessions-panel active" id="panel-nanjing">
+                        <div class="sessions-grid">
+                            <!-- Card 1 -->
+                            <div class="session-card premium-card">
+                                <div class="session-header-row">
+                                    <div class="session-date-box">
+                                        <span class="date-icon">📅</span>
+                                        <span class="date-txt">7/13 - 7/17</span>
+                                    </div>
+                                    <span class="status-badge status-warning animate-pulse">⚠️ 僅剩少量名額</span>
+                                </div>
+                                <h3 class="session-title-name">AI 守護者：拯救未來城市</h3>
+                                <div class="session-tags">
+                                    <span class="tag">Minecraft</span>
+                                    <span class="tag">SPM 動力機械</span>
+                                    <span class="tag">SPIKE AI 機器人</span>
+                                </div>
+                                <p class="session-card-desc">引導學童透過 Minecraft 進行城市規劃，結合動力機械與程式邏輯建構未來綠色防禦網，完成智能防護任務！</p>
+                                <button class="btn btn-card-booking" onclick="quickSelectSession('南京復興教室', '7/13-7/17：AI 守護者：拯救未來城市')">
+                                    一鍵預約此梯次
+                                </button>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="session-card premium-card">
+                                <div class="session-header-row">
+                                    <div class="session-date-box">
+                                        <span class="date-icon">📅</span>
+                                        <span class="date-txt">7/20 - 7/24</span>
+                                    </div>
+                                    <span class="status-badge status-warning animate-pulse">⚠️ 僅剩少量名額</span>
+                                </div>
+                                <h3 class="session-title-name">AI 星際任務：發光工程師創作營</h3>
+                                <div class="session-tags">
+                                    <span class="tag">3D 創作</span>
+                                    <span class="tag">SPM 動力機械</span>
+                                    <span class="tag">SPIKE AI 機器人</span>
+                                </div>
+                                <p class="session-card-desc">探索宇宙星空！孩子將動手設計 3D 星際探測車，融入實體齒輪與編程控制，創造出發光且能靈活運動的星際越野車。</p>
+                                <button class="btn btn-card-booking" onclick="quickSelectSession('南京復興教室', '7/20-7/24：AI 星際任務：發光工程師創作營')">
+                                    一鍵預約此梯次
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Taipei Station Sessions -->
+                    <div class="sessions-panel" id="panel-taipei">
+                        <div class="sessions-grid">
+                            <!-- Card 1 -->
+                            <div class="session-card premium-card card-open">
+                                <div class="session-header-row">
+                                    <div class="session-date-box">
+                                        <span class="date-icon">📅</span>
+                                        <span class="date-txt">8/3 - 8/7</span>
+                                    </div>
+                                    <span class="status-badge status-success">🟢 可報名</span>
+                                </div>
+                                <h3 class="session-title-name">AI 森林任務：救援工程師創作營</h3>
+                                <div class="session-tags">
+                                    <span class="tag">3D 創作</span>
+                                    <span class="tag">SPM 動力機械</span>
+                                    <span class="tag">SPIKE AI 機器人</span>
+                                </div>
+                                <p class="session-card-desc">模擬野生動物棲息地救援任務。結合 3D 繪圖建構防護所，以樂高 SPIKE AI 撰寫自動巡邏與物資配送演算法。</p>
+                                <button class="btn btn-card-booking" onclick="quickSelectSession('台北車站教室', '8/3-8/7：AI 森林任務：救援工程師創作營')">
+                                    一鍵預約此梯次
+                                </button>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="session-card premium-card">
+                                <div class="session-header-row">
+                                    <div class="session-date-box">
+                                        <span class="date-icon">📅</span>
+                                        <span class="date-txt">8/10 - 8/14</span>
+                                    </div>
+                                    <span class="status-badge status-warning animate-pulse">⚠️ 僅剩少量名額</span>
+                                </div>
+                                <h3 class="session-title-name">AI 機關任務：設計工程師營</h3>
+                                <div class="session-tags">
+                                    <span class="tag">雷射切割設計</span>
+                                    <span class="tag">SPM 動力機械</span>
+                                    <span class="tag">SPIKE AI 機器人</span>
+                                </div>
+                                <p class="session-card-desc">融合雷射切割的精密工藝與傳動結構！從繪製平面圖、雷射切割實體卡榫木板，再透過程式控制機關做動，打造極具質感的智慧機關盒。</p>
+                                <button class="btn btn-card-booking" onclick="quickSelectSession('台北車站教室', '8/10-8/14：AI 機關任務：設計工程師營')">
+                                    一鍵預約此梯次
+                                </button>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="session-card premium-card">
+                                <div class="session-header-row">
+                                    <div class="session-date-box">
+                                        <span class="date-icon">📅</span>
+                                        <span class="date-txt">8/17 - 8/21</span>
+                                    </div>
+                                    <span class="status-badge status-warning animate-pulse">⚠️ 僅剩少量名額</span>
+                                </div>
+                                <h3 class="session-title-name">AI 程式機器人工程師</h3>
+                                <div class="session-tags">
+                                    <span class="tag">Minecraft</span>
+                                    <span class="tag">SPM 動力機械</span>
+                                    <span class="tag">SPIKE AI 機器人</span>
+                                </div>
+                                <p class="session-card-desc">全方位的軟硬整合實戰。從虛擬世界 (Minecraft) 程式碼自動建造，橫跨至實體樂高機器人感應避障程式，淬煉孩子的全域運算思維。</p>
+                                <button class="btn btn-card-booking" onclick="quickSelectSession('台北車站教室', '8/17-8/21：AI 程式機器人工程師')">
+                                    一鍵預約此梯次
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sessions-bottom-notice">
+                    <span class="speaker-icon">📢</span>
+                    <span>部分熱門梯次已滿班，剩餘名額持續減少中！</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Lead/Booking Form Section -->
+        <section id="booking" class="booking-section">
+            <div class="container booking-container">
+                <div class="booking-intro">
+                    <span class="section-subtitle font-outfit">GET IN TOUCH</span>
+                    <h2 class="booking-title">一鍵預約 / 諮詢夏令營</h2>
+                    <p class="booking-desc">
+                        填寫下方表單以選擇想諮詢的梯次，送出後我們的營隊顧問將在 24 小時內與您聯繫，協助確認剩餘名額。
+                        您也可以**點擊最下方的 LINE 按鈕**，將會直接代入您的預約資訊快速私訊專員！
+                    </p>
+                    
+                    <div class="contact-quick-list">
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <div>
+                                <strong>南京復興教室：</strong>
+                                <span>台北市南京東路三段（南京復興站步行 1 分鐘）</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <div>
+                                <strong>台北車站教室：</strong>
+                                <span>台北市許昌街（台北車站地下街 Z8 出口旁）</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Booking Form -->
+                <div class="form-card">
+                    <h3 class="form-title">夏令營諮詢表單</h3>
+                    <form id="campRegForm" onsubmit="handleFormSubmit(event)">
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="parentName">家長姓名 <span class="required">*</span></label>
+                                <input type="text" id="parentName" placeholder="請輸入您的姓名" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="parentPhone">聯絡電話 <span class="required">*</span></label>
+                                <input type="tel" id="parentPhone" placeholder="0912-345678" pattern="^09[0-9]{8}$|^09[0-9]{2}-[0-9]{3}-[0-9]{3}$" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="childName">孩子姓名 <span class="required">*</span></label>
+                                <input type="text" id="childName" placeholder="孩子名字" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="childGrade">孩子年級/年齡 <span class="required">*</span></label>
+                                <select id="childGrade" required>
+                                    <option value="" disabled selected>請選擇年級</option>
+                                    <option value="國小一、二年級">國小一、二年級</option>
+                                    <option value="國小三、四年級">國小三、四年級</option>
+                                    <option value="國小五、六年級">國小五、六年級</option>
+                                    <option value="國中七年級以上">國中七年級以上</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="targetLocation">諮詢教室位置 <span class="required">*</span></label>
+                                <select id="targetLocation" onchange="updateFormSessionOptions()" required>
+                                    <option value="" disabled selected>請選擇教室</option>
+                                    <option value="南京復興教室">南京復興教室</option>
+                                    <option value="台北車站教室">台北車站教室</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="targetSession">希望諮詢梯次 <span class="required">*</span></label>
+                                <select id="targetSession" required>
+                                    <option value="" disabled selected>請先選擇教室位置</option>
+                                    <!-- Options will dynamically populate via Javascript -->
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="userMessage">其他想詢問或備註的事項</label>
+                            <textarea id="userMessage" rows="3" placeholder="例如：孩子無任何程式基礎、想多詢問團報優惠..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit">
+                            <span class="btn-text">確認送出，前往 LINE 私訊確認</span>
+                            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Big Banner (Similar to footer banner of image) -->
+        <section class="line-cta-section">
+            <div class="container line-cta-container">
+                <div class="cta-left-decor">
+                    <span class="star star-1">✦</span>
+                    <span class="star star-2">✦</span>
+                </div>
+                <div class="line-cta-content">
+                    <div class="line-tag-row">
+                        <span class="line-badge">LINE 官方線上服務</span>
+                        <span class="pulse-glow">剩餘名額限時查詢</span>
+                    </div>
+                    <h2 class="cta-headline">協助您確認剩餘名額與適合梯次</h2>
+                    <p class="cta-subheadline">直接點擊下方按鈕或掃碼私訊我們 <strong>「我要報名」</strong>，即可獲得營隊專屬優惠與課程大綱！</p>
+                    
+                    <a href="https://lin.ee/UTc0L3k" target="_blank" class="btn-line-cta animate-pulse-large">
+                        <div class="line-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="currentColor" class="line-svg">
+                                <path d="M24 10.3c0-5.7-5.4-10.3-12-10.3S0 4.6 0 10.3c0 5.1 4.3 9.3 10.1 10.1.4.1.9.3 1 .7.1.3.1.8 0 1.2-.1.4-.4 1.7-.5 2.3-.2.8-.7 3.1-.3 3.1.4 0 2.2-1.5 3.1-2.2.8-.6 1.7-1.7 2.3-2.5 4.9-1.2 8.3-5.3 8.3-10.3zm-14.8.4h-2.1c-.3 0-.5-.2-.5-.5v-4.1c0-.3.2-.5.5-.5h2.1c.3 0 .5.2.5.5s-.2.5-.5.5h-1.6v1.1h1.6c.3 0 .5.2.5.5s-.2.5-.5.5h-1.6v1.1h1.6c.3 0 .5.2.5.5s-.2.5-.5.5zm4.8-.5c0 .3-.2.5-.5.5h-2.1c-.3 0-.5-.2-.5-.5v-4.1c0-.3.2-.5.5-.5h2.1c.3 0 .5.2.5.5s-.2.5-.5.5h-1.6v3.1h1.6c.3 0 .5.2.5.5zm2.7.5c0 .3-.2.5-.5.5h-.8v-3.6c0-.3-.2-.5-.5-.5s-.5.2-.5.5v4.1c0 .3.2.5.5.5h1.3c.3 0 .5-.2.5-.5s-.2-.5-.5-.5zm4.1-1.6c.3 0 .5-.2.5-.5v-2.1c0-.3-.2-.5-.5-.5h-2.1c-.3 0-.5.2-.5.5v4.1c0 .3.2.5.5.5h2.1c.3 0 .5-.2.5-.5s-.2-.5-.5-.5h-1.6v-1h1.6zm-1.6-1.1v-1.1h1.6c.3 0 .5-.2.5-.5s-.2-.5-.5-.5h-2.1v2.1h2.1c.3 0 .5-.2.5-.5s-.2-.5-.5-.5h-1.6z"/>
+                            </svg>
+                        </div>
+                        <span class="cta-line-txt">立即私訊 / 留言「我要報名」</span>
+                    </a>
+                </div>
+                <div class="cta-right-decor">
+                    <span class="star star-3">✦</span>
+                    <span class="star star-4">✦</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <p class="footer-copyright">© 2026 AI 科技夏令營 招生委員會. All Rights Reserved. </p>
+            <p class="footer-note">備註：各梯次名額採繳費登記順序為準。退費標準悉依各地方教育局規定辦理。</p>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky CTA Bottom Bar -->
+    <div class="mobile-sticky-bar">
+        <a href="https://lin.ee/UTc0L3k" target="_blank" class="sticky-cta-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor" class="sticky-line-icon">
+                <path d="M24 10.3c0-5.7-5.4-10.3-12-10.3S0 4.6 0 10.3c0 5.1 4.3 9.3 10.1 10.1.4.1.9.3 1 .7.1.3.1.8 0 1.2-.1.4-.4 1.7-.5 2.3-.2.8-.7 3.1-.3 3.1.4 0 2.2-1.5 3.1-2.2.8-.6 1.7-1.7 2.3-2.5 4.9-1.2 8.3-5.3 8.3-10.3zm-14.8.4h-2.1c-.3 0-.5-.2-.5-.5v-4.1c0-.3.2-.5.5-.5h2.1c.3 0 .5.2.5.5s-.2.5-.5.5h-1.6v1.1h1.6c.3 0 .5.2.5.5s-.2.5-.5.5h-1.6v1.1h1.6c.3 0 .5.2.5.5s-.2.5-.5.5zm4.8-.5c0 .3-.2.5-.5.5h-2.1c-.3 0-.5-.2-.5-.5v-4.1c0-.3.2-.5.5-.5h2.1c.3 0 .5.2.5.5s-.2.5-.5.5h-1.6v3.1h1.6c.3 0 .5.2.5.5zm2.7.5c0 .3-.2.5-.5.5h-.8v-3.6c0-.3-.2-.5-.5-.5s-.5.2-.5.5v4.1c0 .3.2.5.5.5h1.3c.3 0 .5-.2.5-.5s-.2-.5-.5-.5zm4.1-1.6c.3 0 .5-.2.5-.5v-2.1c0-.3-.2-.5-.5-.5h-2.1c-.3 0-.5.2-.5.5v4.1c0 .3.2.5.5.5h2.1c.3 0 .5-.2.5-.5s-.2-.5-.5-.5h-1.6v-1h1.6zm-1.6-1.1v-1.1h1.6c.3 0 .5-.2.5-.5s-.2-.5-.5-.5h-2.1v2.1h2.1c.3 0 .5-.2.5-.5s-.2-.5-.5-.5h-1.6z"/>
+            </svg>
+            <span>立即私訊 / 留言「我要報名」</span>
+        </a>
+    </div>
+
+    <!-- Script File -->
+    <script src="app.js"></script>
+</body>
+</html>
