@@ -531,7 +531,7 @@ ul {
 .decor-robot {
     position: absolute;
     top: 10%;
-    right: 5%;
+    right: -20px;
     width: 130px;
     background: var(--white);
     border-radius: var(--border-radius-md);
@@ -542,6 +542,7 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+    z-index: 10;
 }
 
 .svg-robot {
@@ -562,7 +563,7 @@ ul {
 .decor-minecraft {
     position: absolute;
     top: 40%;
-    left: -5%;
+    left: -30px;
     width: 120px;
     background: var(--white);
     border-radius: var(--border-radius-md);
@@ -573,6 +574,7 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+    z-index: 10;
 }
 
 .svg-mc {
