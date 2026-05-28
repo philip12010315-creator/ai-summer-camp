@@ -582,6 +582,38 @@ ul {
     height: 56px;
 }
 
+.decor-student {
+    position: absolute;
+    top: 62%;
+    right: -30px;
+    width: 135px;
+    background: var(--white);
+    border-radius: var(--border-radius-md);
+    padding: 16px;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid rgba(16, 185, 129, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    z-index: 10;
+}
+
+.svg-student {
+    width: 68px;
+    height: 68px;
+}
+
+.student-label {
+    font-family: var(--font-outfit);
+    font-size: 0.65rem;
+    font-weight: 800;
+    color: var(--dark-muted);
+    background-color: var(--light);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
 /* Animations */
 .animate-float {
     animation: float 5s ease-in-out infinite;
